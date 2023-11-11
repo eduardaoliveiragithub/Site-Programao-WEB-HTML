@@ -1,0 +1,55 @@
+.agendamento-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #415190;
+}
+.agendamento-container1 {
+  width: 638px;
+  height: 855px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EBEBEB;
+}
+.agendamento-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.agendamento-text1 {
+  padding-top: var(--dl-space-space-halfunit);
+  margin-right: 10px;
+}
+.agendamento-textinput {
+  margin-bottom: 30px;
+}
+.agendamento-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.agendamento-text2 {
+  padding-top: var(--dl-space-space-halfunit);
+  margin-right: 10px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.agendamento-textinput1 {
+  margin-bottom: 30px;
+}
+.agendamento-button {
+  margin-top: 20px;
+}

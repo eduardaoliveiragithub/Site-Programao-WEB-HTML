@@ -1,0 +1,321 @@
+.lista-de-imveis-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.lista-de-imveis-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.lista-de-imveis-nav {
+  display: flex;
+}
+.lista-de-imveis-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.lista-de-imveis-text {
+  color: var(--dl-color-gray-white);
+}
+.lista-de-imveis-text01 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-twounits);
+}
+.lista-de-imveis-text02 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-twounits);
+}
+.lista-de-imveis-text03 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-twounits);
+}
+.lista-de-imveis-container01 {
+  width: 100%;
+  height: 366px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #344279;
+}
+.lista-de-imveis-text04 {
+  top: 0px;
+  left: 0px;
+  color: #000000;
+  right: 0px;
+  width: 100%;
+  height: 103px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: var(--dl-space-space-twounits);
+  background-color: #D9D9D9;
+}
+.lista-de-imveis-container02 {
+  align-items: center;
+  padding-top: 0px;
+  justify-content: flex-start;
+}
+.lista-de-imveis-text07 {
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.lista-de-imveis-text13 {
+  width: 300px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.lista-de-imveis-pasted-image {
+  width: 55px;
+  height: 54px;
+}
+.lista-de-imveis-icon {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text14 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon02 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text15 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon04 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text16 {
+  font-size: 12px;
+}
+.lista-de-imveis-text17 {
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.lista-de-imveis-text23 {
+  width: 300px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.lista-de-imveis-pasted-image1 {
+  width: 55px;
+  height: 54px;
+}
+.lista-de-imveis-icon06 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text24 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon08 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text25 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon10 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text26 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon-group1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.lista-de-imveis-text27 {
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.lista-de-imveis-text33 {
+  width: 300px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.lista-de-imveis-pasted-image2 {
+  width: 55px;
+  height: 54px;
+}
+.lista-de-imveis-icon12 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text34 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon14 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text35 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon16 {
+  width: 20px;
+  height: 24px;
+}
+.lista-de-imveis-text36 {
+  font-size: 12px;
+}
+.lista-de-imveis-icon-group2 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.lista-de-imveis-footer {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #D9D9D9;
+}
+.lista-de-imveis-icon-group3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lista-de-imveis-icon18 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.lista-de-imveis-icon20 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.lista-de-imveis-icon22 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 1200px) {
+  .lista-de-imveis-header {
+    width: 100%;
+    height: 134px;
+    background-color: #D9D9D9;
+  }
+  .lista-de-imveis-nav {
+    align-self: center;
+  }
+  .lista-de-imveis-container01 {
+    height: 100%;
+  }
+  .lista-de-imveis-text04 {
+    top: 155px;
+    color: rgb(0, 0, 0);
+    right: 0px;
+    width: 1191px;
+    height: 99px;
+    background-color: rgb(217, 217, 217);
+  }
+  .lista-de-imveis-container02 {
+    height: 842px;
+  }
+  .lista-de-imveis-text07 {
+    font-size: 16px;
+  }
+  .lista-de-imveis-text17 {
+    font-size: 16px;
+  }
+  .lista-de-imveis-pasted-image1 {
+    width: 34px;
+    height: 26px;
+  }
+  .lista-de-imveis-text27 {
+    font-size: 16px;
+  }
+}
+@media(max-width: 767px) {
+  .lista-de-imveis-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .lista-de-imveis-nav {
+    display: none;
+  }
+  .lista-de-imveis-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .lista-de-imveis-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .lista-de-imveis-text01 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .lista-de-imveis-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .lista-de-imveis-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .lista-de-imveis-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .lista-de-imveis-text37 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .lista-de-imveis-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .lista-de-imveis-icon-group {
+    display: none;
+  }
+  .lista-de-imveis-icon-group1 {
+    display: none;
+  }
+  .lista-de-imveis-icon-group2 {
+    display: none;
+  }
+  .lista-de-imveis-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .lista-de-imveis-text37 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
