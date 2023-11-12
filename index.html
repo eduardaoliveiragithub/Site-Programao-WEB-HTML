@@ -1,33 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <title>Site Programação WEB</title>
     <meta property="og:title" content="Site Programação WEB" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
@@ -38,28 +16,30 @@
       href="https://fonts.googleapis.com/css2?family=Jockey+One:wght@400&amp;display=swap"
       data-tag="font"
     />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/index.css" rel="stylesheet" />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
+    
     <div>
-      <link href="./index.css" rel="stylesheet" />
-
       <div class="home-container">
         <header data-role="Header" class="home-header">
           <div class="home-nav">
             <nav class="home-nav1">
-              <span class="home-text">Rio de Janeiro</span>
-              <span class="home-text001">São Paulo</span>
-              <span class="home-text002">Bahia</span>
-              <span class="home-text003">Sobre</span>
+              <a href="#sp_h2" class="home-text">São Paulo</a>
+              <a href="#rj_h2" class="home-text001">Rio de Janeiro</a>
+              <a href="#bh_h2" class="home-text002">Bahia</a>
+              <a href="#img_principal" class="home-text003">Sobre</a>
             </nav>
           </div>
           <div class="home-icon-group">
+            <a href="login.html">
             <img
               alt="pastedImage"
               src="public/external/pastedimage-b6bd.svg"
               class="home-pasted-image"
             />
+          </a>
           </div>
         </header>
         <figure class="home-container001">
@@ -68,11 +48,12 @@
             src="https://www.sungodenergy.com.br/wp-content/uploads/2019/08/entenda-como-funciona-a-energia-solar-em-predios-e-edificios.jpg"
             loading="eager"
             class="home-image"
+            id="img_principal"
           />
         </figure>
         <div class="home-container002">
           <div class="home-container003">
-            <h1 class="home-text004">A ADIMO</h1>
+            <h1 class="home-text004" id="adimo">A ADIMO</h1>
             <span class="home-text005">
               <span>
                 A Federação Brasileira dos Animais tem a missão de cadastrar de
@@ -89,7 +70,7 @@
             </span>
             <button type="button" class="button">
               <span>
-                <span>Nossa História</span>
+                <a>Nossa História</a>
                 <br />
               </span>
             </button>
@@ -112,11 +93,13 @@
               <div class="linha">
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB333910/bem-moema-sao-paulo-moema-rem20869-00-Fachada-Residencial-Studio.jpg"
                       class="home-image02 img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -162,11 +145,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB182306/01-haus-mitre-perdizes-sao-paulo-perdizes-rem17033-fachada.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -212,11 +197,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB294499/rfm-vista-park-sao-paulo-ibirapuera-rem18487-01-fachada.png"
                       class="home-image04 img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -264,11 +251,13 @@
               <div class="linha">
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB129485/01-Perspectiva-Fachada.png"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -314,11 +303,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB129485/03-Detalhe-Fachada.png"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -364,11 +355,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB14368/01-Fachada.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -425,11 +418,13 @@
               <div class="linha">
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB14368/03-Portaria.jpg"
                       class="img-pedio"
                     />
+                    </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -475,11 +470,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB371318/Mandarim_Brooklin_SaoPaulo_01_Fachada-Torre-Residencial-Noturna.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -525,11 +522,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB13897/01.-Fachada.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -577,11 +576,13 @@
               <div class="linha">
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB185784/universo-tatuape-sao-paulo-tatuape-01-fachada-astro.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -627,11 +628,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB185784/universo-tatuape-sao-paulo-tatuape-02-alameda-astro.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -677,11 +680,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB333908/01-B-FOTOINSERCAO_F2.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -737,11 +742,13 @@
               <div class="linha">
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB371323/1--EDEN_PARK_BY_DROR-BROOKLIN-MORUMBI-FACHADA.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -787,11 +794,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB108195/Heritage-Fachada.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -837,11 +846,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB317229/mona-the-grand-lodge-sao-paulo-moema-01-fachada-geral.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -889,11 +900,13 @@
               <div class="linha">
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB371323/1--EDEN_PARK_BY_DROR-BROOKLIN-MORUMBI-FACHADA.jpg"
                       class="img-pedio"
                     />
+                    </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -939,11 +952,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB108195/Heritage-Fachada.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
@@ -989,11 +1004,13 @@
                 </div>
                 <div class="predio">
                   <figure class="container-img">
+                    <a href="imovel.html">
                     <img
                       alt="image"
                       src="https://betaimages.lopes.com.br/realestate/med/REB317229/mona-the-grand-lodge-sao-paulo-moema-01-fachada-geral.jpg"
                       class="img-pedio"
                     />
+                  </a>
                   </figure>
                   <div class="info">
                     <div class="dados">
